@@ -1,0 +1,209 @@
+.nebullaNet {
+    position: relative;
+    display: inline-block;
+    min-width: 113px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .nebullaNetWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-mini) 0 0;
+  }
+  .categoryListChild,
+  .categoryListItem {
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .categoryListChild {
+    height: 64px;
+    width: 986px;
+    backdrop-filter: blur(26px);
+    border-radius: var(--br-16xl);
+    background: linear-gradient(
+      120.86deg,
+      rgba(255, 255, 255, 0.21),
+      rgba(255, 255, 255, 0.21)
+    );
+    border-bottom: 1px solid var(--color-gray);
+    box-sizing: border-box;
+  }
+  .categoryListItem {
+    align-self: stretch;
+    width: 427px;
+    border-radius: var(--br-15xl);
+    background-color: var(--color-white);
+  }
+  .exLunarLanding {
+    position: relative;
+    display: inline-block;
+    min-width: 102px;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .exLunarLandingWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .categoryList1,
+  .categoryList2 {
+    align-self: stretch;
+    width: 104px;
+    z-index: 3;
+  }
+  .categoryList1 {
+    width: 427px;
+    border-radius: var(--br-15xl);
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-3xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    z-index: 2;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+    min-width: 58px;
+    z-index: 2;
+  }
+  .homeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xs) 0 0;
+  }
+  .destination {
+    align-self: stretch;
+    position: relative;
+    z-index: 2;
+  }
+  .destinationWrapper {
+    width: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .booking,
+  .tour {
+    width: 45px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .booking {
+    width: 81px;
+  }
+  .categoryListInner,
+  .frameGroup {
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .frameGroup {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .categoryListInner {
+    width: 428px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-9xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .categoryList,
+  .frameParent,
+  .macbookAir1Inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .categoryList {
+    width: 986px;
+    backdrop-filter: blur(26px);
+    border-radius: var(--br-16xl);
+    background: linear-gradient(
+      120.86deg,
+      rgba(255, 255, 255, 0.21),
+      rgba(255, 255, 255, 0.21)
+    );
+    border-bottom: 1px solid var(--color-gray);
+    box-sizing: border-box;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-base) var(--padding-sm);
+    gap: var(--gap-46xl);
+    z-index: 1;
+    font-size: var(--font-size-xs);
+    color: var(--color-darkgray);
+    font-family: var(--font-poppins);
+  }
+  .frameParent,
+  .macbookAir1Inner {
+    align-items: flex-start;
+  }
+  .frameParent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-impact);
+  }
+  .macbookAir1Inner {
+    height: 107px;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-24xl) var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 1050px) {
+    .categoryListInner {
+      display: none;
+    }
+    .categoryList {
+      width: 558px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .categoryList {
+      gap: var(--gap-13xl);
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .categoryList {
+      gap: var(--gap-base);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .frameGroup {
+      display: none;
+    }
+    .categoryListInner {
+      width: 0;
+    }
+  }
+  

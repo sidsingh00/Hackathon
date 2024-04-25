@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MacBookAir from './components/mainpage';
+import FrameComponent1 from './components/FrameComponent1';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MacBookAir/>
+    <FrameComponent1/>
   </React.StrictMode>
 );
 
