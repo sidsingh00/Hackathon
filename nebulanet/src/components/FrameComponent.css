@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0ch;
+}
 .frameChild,
 .frameItem {
   align-self: stretch;
