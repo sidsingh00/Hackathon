@@ -1,0 +1,413 @@
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  width: 785px;
+  box-shadow: 0 4px 54.4px 2px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 1px;
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameContainer {
+  height: 127px;
+  width: 152px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.homeDestinationChild {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.homeDestination {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.guests,
+.promoCodeBox {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.guests {
+  letter-spacing: 0.14em;
+  font-weight: 500;
+  min-width: 46px;
+}
+.promoCodeBox {
+  font-size: var(--font-size-32xl);
+  letter-spacing: -0.01em;
+  line-height: 43px;
+  font-family: var(--font-port-lligat-slab);
+  color: var(--color-black);
+  min-width: 57px;
+}
+.guestsParent,
+.searchField {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.guestsParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+}
+.searchField {
+  padding: var(--padding-5xs) 0 0;
+}
+.destinationsLabel,
+.frameDiv,
+.searchField {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  width: 244px;
+  height: 93px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.destinationsLabel {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  min-width: 196px;
+}
+.frameInner {
+  width: 9px;
+  height: 4px;
+  position: relative;
+  z-index: 1;
+}
+.destinationsListInner {
+  height: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleDiv {
+  width: 240px;
+  height: 163px;
+  position: relative;
+  background-color: var(--color-indigo);
+  display: none;
+}
+.checkAvailability,
+.haveAPromo {
+  position: relative;
+  letter-spacing: 0.14em;
+}
+.haveAPromo {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 118px;
+  z-index: 2;
+}
+.checkAvailability {
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.destinationName,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.destinationName {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-4xs);
+  background-color: var(--color-tomato);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 2;
+}
+.destinationName:hover {
+  background-color: var(--color-salmon);
+}
+.rectangleGroup {
+  background-color: var(--color-indigo);
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-19xl) var(--padding-32xl);
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.destinationsList,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.destinationsList {
+  align-items: flex-end;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-4xs);
+  color: var(--color-fuchsia);
+}
+.frameWrapper,
+.rectangleParent {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 4px 54.4px 2px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-2xl);
+  gap: var(--gap-4xl);
+  z-index: 3;
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.destinations {
+  position: relative;
+  letter-spacing: 0.54em;
+  z-index: 2;
+}
+.copyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-silver);
+}
+.categoryListChild {
+  height: 102px;
+  width: 425px;
+  position: relative;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.mars {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.destinationDescription {
+  width: 59px;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.categoryList {
+  align-self: stretch;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-7xl) var(--padding-mid)
+    var(--padding-5xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.marsIsTheFourthPlanetFrom {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.08em;
+  z-index: 2;
+}
+.from {
+  display: inline-block;
+  min-width: 64px;
+}
+.b,
+.from,
+.moreInfo {
+  position: relative;
+  letter-spacing: 0.08em;
+  z-index: 2;
+}
+.b {
+  white-space: nowrap;
+}
+.moreInfo {
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 70px;
+}
+.parent,
+.reviewsAndWorkProcess {
+  display: flex;
+  align-items: flex-start;
+}
+.reviewsAndWorkProcess {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0 0;
+  font-size: var(--font-size-smi);
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-26xl);
+  color: var(--color-white);
+}
+.destinationImage {
+  width: 402px;
+  gap: var(--gap-10xs);
+  color: var(--color-firebrick);
+}
+.destinationDetails,
+.destinationImage,
+.destinationPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.destinationPrice {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-2xl);
+  color: var(--color-khaki);
+}
+.destinationDetails {
+  width: 425px;
+  gap: var(--gap-48xl);
+}
+.destinationItem {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-30xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-35xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.destinationItem,
+.frameParent,
+.macbookAir1Inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 785px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-66xl);
+}
+.macbookAir1Inner {
+  width: 1169px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkslategray);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1000px) {
+  .promoCodeBox {
+    font-size: var(--font-size-22xl);
+    line-height: 34px;
+  }
+  .destinationDescription,
+  .mars {
+    font-size: var(--font-size-24xl);
+  }
+  .b {
+    font-size: var(--font-size-17xl);
+  }
+  .frameParent {
+    gap: var(--gap-23xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .destinationItem {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .promoCodeBox {
+    font-size: var(--font-size-12xl);
+    line-height: 26px;
+  }
+  .destinationDescription,
+  .mars {
+    font-size: var(--font-size-13xl);
+  }
+  .categoryList {
+    flex-wrap: wrap;
+  }
+  .from,
+  .marsIsTheFourthPlanetFrom {
+    font-size: var(--font-size-mid);
+  }
+  .b {
+    font-size: var(--font-size-8xl);
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .destinationPrice {
+    gap: var(--gap-mini);
+  }
+  .destinationDetails {
+    gap: var(--gap-14xl);
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}

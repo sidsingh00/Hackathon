@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import styles from "./FrameComponent1.css";
+import styles from "./FrameComponent1.module.css";
 
 const FrameComponent1 = ({
   cHECKIN,

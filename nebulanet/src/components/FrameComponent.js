@@ -1,5 +1,6 @@
+import styles from "./FrameComponent.module.css";
 import FrameComponent1 from "./FrameComponent1";
-import styles from "./FrameComponent.css";
+
 
 const FrameComponent = () => {
   return (

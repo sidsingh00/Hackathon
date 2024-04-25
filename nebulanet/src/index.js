@@ -1,17 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import MacBookAir from './components/mainpage';
-import FrameComponent1 from './components/FrameComponent1';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+import {
+  CssBaseline,
+  ThemeProvider,
+  createTheme,
+  StyledEngineProvider,
+} from "@mui/material";
 
+import "./global.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const muiTheme = createTheme();
+
+const container = document.getElementById("root");
+const root = createRoot(container);
+
 root.render(
-  <React.StrictMode>
-    <MacBookAir/>
-    <FrameComponent1/>
-  </React.StrictMode>
+  <BrowserRouter>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={muiTheme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
+    </StyledEngineProvider>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

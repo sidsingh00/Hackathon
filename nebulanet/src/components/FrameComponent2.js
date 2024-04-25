@@ -1,5 +1,5 @@
 import { Button } from "@mui/material";
-import styles from "./FrameComponent2.css";
+import styles from "./FrameComponent2.module.css";
 
 const FrameComponent2 = () => {
   return (
@@ -17,7 +17,7 @@ const FrameComponent2 = () => {
             </div>
             <Button
               className={styles.categoryList2}
-              startIcon={<img width="13px" height="13px" src="./public/vector.png"  alt="Error"/>}
+              startIcon={<img width="13px" height="13px" src="/vector.svg" />}
               disableElevation={true}
               variant="contained"
               sx={{

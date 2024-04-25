@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Impact:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Slab:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+  --font-port-lligat-slab: "Port Lligat Slab";
+  --font-pathway-gothic-one: "Pathway Gothic One";
+  --font-impact: Impact;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-26xl: 45px;
+  --font-size-8xl: 27px;
+  --font-size-17xl: 36px;
+  --font-size-2xl: 21px;
+  --font-size-mid: 17px;
+  --font-size-35xl: 54px;
+  --font-size-13xl: 32px;
+  --font-size-24xl: 43px;
+  --font-size-sm: 14px;
+  --font-size-2xs: 11px;
+  --font-size-4xs: 9px;
+  --font-size-32xl: 51px;
+  --font-size-12xl: 31px;
+  --font-size-22xl: 41px;
+  --font-size-3xs: 10px;
+  --font-size-mini: 15px;
+  --font-size-56xl: 75px;
+  --font-size-41xl: 60px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-firebrick: #c0340c;
+  --color-khaki: #fedb62;
+  --color-silver: #bcbcbc;
+  --color-indigo: #380774;
+  --color-tomato: #da5544;
+  --color-salmon: #f56e5e;
+  --color-fuchsia: #e615d0;
+  --color-black: #000;
+  --color-darkslategray: #343333;
+  --color-lightgray: #d7d5d5;
+  --color-gray: #958d8d;
+  --color-darkgray: #9d9595;
+
+  /* Gaps */
+  --gap-23xl: 42px;
+  --gap-66xl: 85px;
+  --gap-2xl: 21px;
+  --gap-48xl: 67px;
+  --gap-14xl: 33px;
+  --gap-12xl: 31px;
+  --gap-mini: 15px;
+  --gap-10xs: 3px;
+  --gap-xl: 20px;
+  --gap-4xl: 23px;
+  --gap-5xs: 8px;
+  --gap-smi: 13px;
+  --gap-2xs: 11px;
+  --gap-7xl: 26px;
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-46xl: 65px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-15xl: 34px;
+  --padding-9xl: 28px;
+  --padding-30xl: 49px;
+  --padding-5xl: 24px;
+  --padding-8xl: 27px;
+  --padding-base: 16px;
+  --padding-7xl: 26px;
+  --padding-mid: 17px;
+  --padding-xl: 20px;
+  --padding-2xl: 21px;
+  --padding-31xl: 50px;
+  --padding-19xl: 38px;
+  --padding-32xl: 51px;
+  --padding-xs: 12px;
+  --padding-4xs: 9px;
+  --padding-5xs: 8px;
+  --padding-24xl: 43px;
+  --padding-3xs: 10px;
+  --padding-smi: 13px;
+  --padding-sm: 14px;
+  --padding-9xs: 4px;
+  --padding-3xl: 22px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-16xl: 35px;
+  --br-15xl: 34px;
+}
